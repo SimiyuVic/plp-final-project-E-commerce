@@ -1,7 +1,54 @@
 *{
 	font-family: 'Roboto', sans-serif;
+	transition: all 0.5s;
 }
 
 h6 a{
 	text-decoration: none;
+}
+.section-heading {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.section-heading .line-dec {
+	width: 30px;
+	height: 5px;
+	background-color: #3a8bcd;
+}
+.section-heading h1 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #1e1e1e;
+	margin-top: 15px;
+}
+.featured-items {
+	margin-bottom: 70px;
+}
+.featured-item {
+	border-radius: 5px;
+	border: 1px solid #eee;
+	padding: 20px;
+	transition: all 0.5s;
+}
+.featured-item:hover {
+	opacity: 0.9;
+}
+.featured-item img {
+	width: 100%;
+}
+.featured-item h4 {
+	font-size: 17px;
+	font-weight: 700;
+	color: #1e1e1e;
+	margin-top: 15px;
+	transition: all 0.5s;
+}
+.featured-item:hover h4 {
+	color: #3a8bcd;
+}
+.featured-item h6 {
+	color: #3a8bcd;
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 0px;
 }
